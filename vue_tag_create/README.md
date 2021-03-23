@@ -15,8 +15,8 @@ import vue-tag-create from "vue_tag_create"
 
 ## layout (width error-tips)
 
-- block
-- inline
+- default:block
+- inline: inline == true
 
 ## words limit
 
@@ -43,6 +43,15 @@ trigger when blur
 ## focus
 
 trigger when focus
+
+## demo
+
+<vue-tag-create 
+  :wordLimit='20' 
+  :iconClass="iconClass" 
+  :inline="true" 
+  :placeholder="placeholder">
+</vue-tag-create>
 
 ```
 

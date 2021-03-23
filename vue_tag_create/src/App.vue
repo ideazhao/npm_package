@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <vue-tag-create></vue-tag-create>
+    <vue-tag-create :limit='20' :iconClass="iconClass" :inline="true" :placeholder="placeholder"></vue-tag-create>
   </div>
 </template>
 
@@ -10,6 +10,8 @@ export default {
   name: 'app',
   data () {
     return {
+      iconClass:'iconfont icon-close',
+      placeholder:'请输入不超过20个字的标签'
     }
   },
   components:{
@@ -20,11 +22,6 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
 }
 html,body{
