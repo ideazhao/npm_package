@@ -1,7 +1,7 @@
 {
   "name": "vue_tag_create",
   "description": "vue project tags create",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "author": "ideazhao",
   "license": "MIT",
   "private": false,
@@ -26,9 +26,6 @@
     "cross-env": "^5.0.5",
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.4",
-    "node-sass": "^4.5.3",
-    "prettier": "^1.12.1",
-    "sass-loader": "^6.0.6",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",

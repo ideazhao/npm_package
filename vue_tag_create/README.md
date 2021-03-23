@@ -24,11 +24,10 @@ import vue-tag-create from "vue_tag_create"
 - you can set it like `limit='15'`
 
 ## special characters check
-- default:none
-- you can use it by `charCheck = true`
+- default:true
 
 ## trigger key
-you can choose `enter` or `space` you like 
+you can choose `enter` ,it is possible supoort `space` later. 
 
 # events
 
