@@ -41,7 +41,9 @@ trigger when keyup
   :limit='20' 
   :iconClass="iconClass" 
   :inline="true" 
-  :placeholder="placeholder">
+  :placeholder="placeholder"
+  @addTag="addTag"
+  @removeTag="removeTag">
 </vue-tag-create>
 
 ```
