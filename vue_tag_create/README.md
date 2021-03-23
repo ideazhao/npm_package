@@ -27,26 +27,18 @@ import vue-tag-create from "vue_tag_create"
 - default:true
 
 ## trigger key
-you can choose `enter` ,it is possible supoort `space` later. 
+you can choose `enter` ,it is possible support `space` later. 
 
 # events
 
-## input 
+## keyup 
 
-trigger when input
-
-## blur
-
-trigger when blur
-
-## focus
-
-trigger when focus
+trigger when keyup
 
 ## demo
 
 <vue-tag-create 
-  :wordLimit='20' 
+  :limit='20' 
   :iconClass="iconClass" 
   :inline="true" 
   :placeholder="placeholder">
